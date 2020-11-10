@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.square {
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  margin: 3rem;
+}
+
+.circle {
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  margin: 3rem;
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  margin: 3rem;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid #fff;
+}
+
+
+@media screen and (max-width: 540px) {
+
+  .square {
+    width: 150px;
+    height: 150px;
+    margin: 2rem;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    margin: 2rem;
+  }
+
+  .triangle {
+    margin: 2rem;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #fff;
+  }
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+  .square {
+    width: 150px;
+    height: 150px;
+    margin: 2rem;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    margin: 2rem;
+  }
+
+  .triangle {
+    margin: 2rem;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid #fff;
+  }
+
+}
